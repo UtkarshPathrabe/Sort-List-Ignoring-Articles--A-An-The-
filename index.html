@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Sort Ignoring Articles</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Sort list ignoring english articles (a | an | the) created using JavaScript" />
 </head>
 <body>
 
@@ -10,21 +13,25 @@
     body {
       margin: 0;
       font-family: sans-serif;
-      background: url("https://source.unsplash.com/nDqA4d5NL0k/2000x2000");
+      background: #1a1a1d;
       background-size: cover;
       display: flex;
       align-items: center;
-      min-height: 100vh;
+      min-height: 90vh;
+      margin: 30px auto;
     }
 
     #bands {
+      height: 90%;
       list-style: inside square;
       font-size: 20px;
       background: white;
-      width: 500px;
+      max-width: 500px;
+      width: 70%;
       margin: auto;
       padding: 0;
-      box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+      box-shadow: 0 0 10px 20px rgba(255, 255, 255, 0.3);
     }
     
     #bands li {
